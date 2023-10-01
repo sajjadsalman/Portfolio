@@ -9,12 +9,11 @@ const Hero = () => {
         <div>
             <div className='container mx-auto grid md:grid-cols-2 items-center md:justify-center'>
                 <div className='my-16 hero-info'>
-                    <h1 className='text-2xl lg:text-6xl ml-20'>
+                    <h1 className='lg:text-5xl ml-20'>
                         Hi, <br/>
                         I am <span className='text-accent'>R</span>ana<br/>
                         Full-stack Developer
                     </h1>
-                    <p className='pt-5 ml-20'>I am proficient in React.js and Tailwind CSS</p>
                     <button class="ml-20 mt-3 group overflow-hidden px-6 h-12 rounded-full flex space-x-2 items-center bg-gradient-to-r from-pink-500 to-purple-500 hover:to-purple-600">
                         <span class="text-sm text-white"><a href={Resume} download>Resume</a></span>
                         <div class="flex items-center -space-x-3 translate-x-3">
